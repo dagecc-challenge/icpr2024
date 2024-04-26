@@ -1,0 +1,746 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>DAGECC</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<img src="images/logo_icpr.jpg" alt=""  width="80px"/>
+					<h1 id="logo">DAGECC</h1>
+					<p>ICPR 2024 Competition on Domain Adaptation and GEneralization for Character Classification</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#tracks">Competition Tracks</a></li>
+						<li><a href="#rules">Rules</a></li>
+						<li><a href="#dates">Important Dates</a></li>
+						<li><a href="#participate">Participate</a></li>
+						<li><a href="#organisers">Organisers</a></li>
+						<li><a href="#contact">Contact Us</a></li>
+						<li><a href="#ack">Acknowledgments</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+						<!-- <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li> -->
+						<li><a href="mailto:dagecc.icpr24@gmail.com" class="icon solid fa-envelope" style="color: color:#777"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="images/image_background.png" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>DAGECC</h2>
+										<p>ICPR 2024 Competition on Domain Adaptation and GEneralization for Character Classification</p>
+									</header>
+									<article>
+										<p>Welcome to the ICPR 2024 Competition on <b>Domain Adaptation and GEneralization for Character Classification</b> (<strong>DAGECC</strong>)! </p>
+										<p>This competition focuses on fostering the advancement in the fascinating fields of domain adaptation and domain generalization applied
+											to serial number character recognition. 
+										</p>
+										<p>Serial number recognition holds significant importance in various industries, predominantly in quality control, tracking and tracing of parts, and inventory management.
+											However, executing successful serial number recognition can pose substantial challenges due to the varied surfaces on which the numbers are inscribed. 
+											Numbers may be etched, painted, or stamped onto materials ranging from shiny metals, transparent glasses, to rough-textured composites. </p>
+										<p><strong>Domain adaptation</strong> and <strong>domain generalization</strong> come into play as essential tools when addressing the multifaceted problem of character recognition under varying conditions. </p>
+										<p><strong>Domain adaptation</strong> can substantially enhance the accuracy of character recognition in target domains by leveraging the knowledge 
+											acquired from related source domains. 
+											In an industrial context, this could mean building robust models that have been trained on a set of images of numbers 
+											captured under specific conditions, and adapting those models to recognize serial numbers under different conditions. 
+											This technique reduces the need for extensive and time-consuming data collection under every potential condition, 
+											providing efficient and scalable solutions.
+										</p>
+										<p>
+											<strong>Domain generalization</strong> seeks to develop models that are capable of generalizing and performing well 
+											across multiple unseen domains, ultimately improving the model's adaptability. In the realm of character recognition, 
+											this potential translates into the creation of models that are capable of recognizing serial numbers on varied surfaces, 
+											in disparate lighting conditions, or from different viewing angles, all the while maintaining a consistent level of accuracy. 
+										</p>
+									</article>
+									<article style="border-top: solid 3px #f4f4f4;margin-bottom: 1em; padding-top: 1em;">
+										<h3>The Datasets</h3>
+										<p>
+											To address this challenge, we are introducing two new datasets: <strong>Safran-MNIST-D</strong> and <strong>Safran-MNIST-DLS</strong>. 
+											Both datasets comprise images of serial numbers extracted from diverse avionic parts manufactured by <b><a href="https://www.safran-group.com/">SAFRAN</a></b>,
+											the international high-technology group and world leader operating in the aviation (propulsion, equipment and interiors), defense and space markets. 
+											These datasets resembles the well-known MNIST dataset, but with a focus to industrial contexts, encompassing variations in lighting conditions, orientations,
+											writing styles and surface textures. 
+
+											<!-- It represents a good compromise between 1) requiring a low computational cost for processing and 2) being highly relevant for real-world applications.
+											This unique dataset presents a challenging and practical problem scenario that is commonly encountered in industrial settings, where models need to recognize and interpret characters from various objects under differing conditions. 
+											By focusing on this real-world application, the competition encourages participants to develop and refine domain adaptation and generalization algorithms that can effectively handle the diverse data distributions and visual variations present in the dataset.  -->
+										</p>
+
+									<span class="image fit"><img src="images/datasets.PNG" alt="" /></span>
+									
+									</article>
+
+									<article style="border-top: solid 3px #f4f4f4;margin-bottom: 1em; padding-top: 1em;">
+										<p>
+											The ultimate goal is to inspire innovative solutions that can robustly adapt to new domains and generalize well to unseen target domains, thereby pushing the boundaries of current state-of-the-art techniques in these critical research areas. 
+											The competition’s dataset serves as a valuable resource for the computer vision community, facilitating progress in developing more adaptable and universally applicable models for character recognition and beyond.
+										</p>
+										<p>	
+											We warmly invite both academic and industry professionals to participate in this competition and offer their valuable expertise and perspectives.
+										</p>
+									</article>
+									
+									<!-- <p>
+										Domain adaptation offers strategies to improve the performance of models in a target domain by transferring knowledge from a related source domain, while domain generalization implements more complex techniques to create models applicable across unseen domains. 
+									</p> -->
+									
+									
+
+									<a href="#participate" class="button primary">Participate!</a>
+								</div>
+							</section>
+
+						
+							<!-- Tracks -->
+							<section id="tracks">
+								<div class="container">
+									<h3>Competition Tracks</h3>
+									<p>The proposed competition encompasses two primary tracks: <strong>Domain generalization</strong> and 
+										<strong>Unsupervised Domain Adaptation</strong>.</p>
+									<div class="features">
+										<article>
+											<a class="image"><img src="images/safran-mnist-d.png" alt="" /></a>
+											<div class="inner">
+												<h3>Track 1: Domain Generalization</h3>
+												<p>The aim of this track is to develop models that can generalize
+													well to an unseen target domain, without requiring access to any target domain data during
+													training.</p>
+											</div>
+											<p></p>
+											<h4>Source Data:</h4>
+											<p>
+												Participants are granted the freedom to use any publicly available data as of April 26, 2024 or generated data from various source domains. 
+												Nonetheless, we provide a noncomprehensive list of datasets representing letters, digits and symbols, which participants may utilize, 
+												namely: MNIST, MNIST-M, SVHN, HASYv2, Synthetic Digits, EMNIST (Extended MNIST), CROHME.
+												<b>Proprietary data is not allowed</b>. 
+											</p>
+											<h4>Target Data:</h4>
+											<p>Participants are not allowed to use any data from the target domain for training, which will be the new
+												<strong>Safran-MNIST-D </strong>dataset that contains images of numbers ranging from 0 to 9. 
+											</p>
+											
+										</article>
+										
+										<article>
+											<a class="image"><img src="images/safran-mnist-dls.png" alt="" /></a>
+											<div class="inner">
+												<h4>Track 2: Unsupervised Domain Adaptation</h4>
+												<p>This task is focused on unsupervised domain
+													adaptation methods, in which we provide unlabeled data from a target domain: the new <strong>Safran-
+													MNIST-DLS</strong> dataset, which comprises images of 32 classes depicting numbers, alphabetic characters, and symbols, namely:
+													[0, 1, 2, 3, 4, 5, 5, 6, 7, 8, 9, A, B, C, D, E, F, G, H, J, K, L, M, N, P, R, S, T, U, W, Y, /, .].
+												</p>
+											</div>
+											<p></p>
+											<h4>Source Data:</h4>
+												<p>
+													Participants are granted the freedom to use any publicly available data as of April 26, 2024 or generated data from various source domains. 
+													Nonetheless, we provide a noncomprehensive list of datasets representing letters, digits and symbols, which participants may utilize, 
+													namely: MNIST, MNIST-M, SVHN, HASYv2, Synthetic Digits, EMNIST (Extended MNIST), CROHME.
+													<b>Proprietary data is not allowed</b>. 
+												</p>
+											<h4>Target Data:</h4>
+											<p>	
+												Participants have access to the unlabeled target data of <strong>Safran-MNIST-DLS</strong> during training phase. 
+											</p>
+										</article>
+										
+									</div>
+								</div>
+							</section>
+
+						<!-- Rules -->
+						<section id="rules">
+							<div class="container">
+								<h3>Rules</h3>	
+									<h4>Participants:</h4>
+									<!-- <ul class="feature-icons"><li class="icon solid fa-users">Participants</li></ul> -->
+									<ul>
+										<li>Participants from both academic and industrial institutions are welcome to participate in this challenge.
+											The list of team members must be provided during registration, and cannot be changed throughout the competition. 
+											Each individual can only participate in one team and should provide the institution / corporate email at registration.
+										</li>
+										<li>The maximum team size allowed is 5 people.</li>
+										<li>Researchers belonging to the institutes of the organizers are not allowed to participate to avoid potential conflict of interest.</li>
+										<li>This challenge features two tracks, and participants can decide if they participate in one of them or both.</li>
+									</ul>
+									<h4>Dataset:</h4>
+									<ul>
+										<li>For both tracks, participants may use any publicly available and appropriately licensed data to pretrain their models. 
+											Each participant must ensure that their use of any data in connection with this competition complies with applicable law and all other applicable legal requirements. 
+											Furthermore, any public pre-trained models can be used, such as CLIP, OpenCLIP, or models pre-trained on ImageNet, etc.
+										</li>
+										<li>It is forbidden to use data from one track of the competition for the other track (e.g. using  the unlabeled target data of <strong>Safran-MNIST-DLS</strong> for <b>Track 1</b>). </li>
+										<li>For Track 2 - Unsupervised Domain Adaptation, models can be adapted using the unsupervised dataset from the target domain without access to the labels. 
+											Solutions that involve manual labeling of the target domain will be disqualified.
+										</li>
+										<li><strong>Safran-MNIST-D</strong> and <strong>Safran-MNIST-DLS</strong> datasets along with associated ground-truth will be released at the end of the competition.</li>
+									</ul>
+									<!-- <ul class="feature-icons"><li class="icon solid fa-dna"><h4>Evaluation</h4></li> -->
+									</ul>
+									<h4>Evaluation:</h4> 
+									<ul>
+										<li>For both tracks, the well-known <b>macro average F1-score</b> evaluated on the unseen test set will be the metric use to rank submissions.</li>
+										<!-- <li>The winning solutions will be determined based on the test Macro averaged F1-score of the adapted model on target data.</li> -->
+									</ul>
+									<h4>Submission:</h4>
+									<ul>
+										<li>Submission is in the form of Docker containers, as we can't allow access to the validation and test images during the competition.
+											You will be given a template Docker container to use for this. 
+										</li>
+										<li>Each team can make up to 3 submissions per day per task in the development phase. 
+											Using multiple accounts to increase the number of submissions is strictly prohibited.
+										</li>
+										<li>To avoid overfitting the testing set, we only offer one successful submission opportunity on the testing set.</li>
+									</ul>
+									<h4>Prizes:</h4>
+									<ul>
+										<li>We will provide cash prizes or goodies from SAFRAN for the top 3 teams of each track.</li>
+										<li>The first author of the top 3 teams of each track will be invited to contribute to the competition summary paper that will be inserted into the proceedings of ICPR 2024.</li>	
+									</ul>
+
+									
+									 <!-- <ul class="feature-icons">
+										<li class="icon solid fa-code">Write all the code</li>
+										<li class="icon solid fa-cubes">Stack small boxes</li>
+										<li class="icon solid fa-book">Read books and stuff</li>
+										<li class="icon solid fa-coffee">Drink much coffee</li>
+										<li class="icon solid fa-bolt">Lightning bolt</li>
+										<li class="icon solid fa-users">Shadow clone technique</li>
+										
+									</ul>  -->
+							</div>
+						</section>
+
+						<!-- Important dates -->
+						<section id="dates">
+							<div class="container">
+								<h3>Important Dates</h3>	
+								<div class="table-wrapper">
+									<table>
+										
+										<tbody>
+											<tr>
+												<td>Release Training Data</td>
+												<td>Apr 30th, 2024</td>
+											</tr>
+											<tr>
+												<td>Open submissions (on validation data)</td>
+												<td>May 27th, 2024</td>
+											</tr>
+											<tr>
+												<td>Close submissions (on validation data)</td>
+												<td>Jul 21st, 2024 </td>
+											</tr>
+											<tr>
+												<td>Winners announcement</td>
+												<td>Jul 31st, 2024</td>
+											</tr>
+											<tr>
+												<td>Report submission deadline (optional)</td>
+												<td>Aug 18th, 2024</td>
+											</tr>
+										</tbody>
+										
+									</table>
+								</div>
+							</div>
+						</section>
+
+						<!-- Participate -->
+						<section id="participate">
+							<div class="container">
+								<h3>How to participate</h3>	
+								<p>To participate in this competition, you must follow these steps:	</p>
+									<ol>
+										<li>Register you team [<b><a href="https://docs.google.com/forms/d/e/1FAIpQLSdt7Jy3IDBhI2d3-F0o20lzJpz69w1YpHKK2ZrsM43VvQxKLQ/viewform">here</a></b>]</li>
+										<li>Create an account on Codabench if you do not have one already</li>
+										<li>Register to the competition on Codabench [<b><a href="#">here</a></b>] and/or [<b><a href="#">here</a></b>] (<i>Coming soon!</i>))</li>
+										<li>Download the Safran-MNIST-DLS training data for Track 2 [<b><a href="#">here</a></b>] (<i>Coming soon!</i>)</li>
+									</ol>
+							</div>
+						</section>
+
+						<!-- Organisers -->
+							<section id="organisers">
+								<div class="container">
+									<h3>Organisers</h3>
+									<!-- <span class="image avatar"><img src="images/photo_jennifer.png" alt="" width="10px" /></span> -->
+									 
+									<figure class="inline-figure">
+										<span class="image avatar"><img src="images/photo_jurie.png" alt="Example1" width="10px" /></span>
+										<figcaption><b>Frederic Jurie</b><br>Professor <br>@University of Caen</figcaption>
+									</figure>
+									
+									<figure class="inline-figure">
+										<span class="image avatar"><img src="images/photo_emi.png" alt="Example2" width="10px" /></span>
+										<figcaption><b>Emanuel Aldea</b><br>Associate Professor <br>@University Paris-Saclay </figcaption>
+									</figure>
+
+									<figure class="inline-figure">
+										<span class="image avatar"><img src="images/photo_sylvie.jpg" alt="Example2" width="10px" /></span>
+										<figcaption><b>Sylvie Le-Hegarat Mascle</b><br>Professor<br> @University Paris-Saclay</figcaption>
+									</figure>
+
+									<figure class="inline-figure">
+										<span class="image avatar"><img src="images/photo_jennifer.png" alt="Example2" width="10px" /></span>
+										<figcaption><b>Jennifer Vandoni</b><br>Research Scientist<br> @SafranTech, Paris</figcaption>
+									</figure>
+
+									<figure class="inline-figure">
+										<span class="image avatar"><img src="images/photo_sofia.png" alt="Example2" width="10px" /></span>
+										<figcaption><b>Sofia Marino</b><br>Research Scientist <br>@SafranTech, Paris</figcaption>
+									</figure>
+
+									<figure class="inline-figure">
+										<span class="image avatar"><img src="images/photo_ichraq.jpg" alt="Example2" width="10px" /></span>
+										<figcaption><b>Ichraq Lemghari</b><br>Ph.D. Student<br> @University Paris-Saclay</figcaption>
+									</figure>
+
+
+									<!-- <ul class="feature-icons">
+										<li class="icon solid fa-code">Write all the code</li>
+										<li class="icon solid fa-cubes">Stack small boxes</li>
+										<li class="icon solid fa-book">Read books and stuff</li>
+										<li class="icon solid fa-coffee">Drink much coffee</li>
+										<li class="icon solid fa-bolt">Lightning bolt</li>
+										<li class="icon solid fa-users">Shadow clone technique</li>
+									</ul> -->
+								</div>
+							</section>
+
+						
+
+						<!-- Contact -->
+							<section id="contact">
+								<div class="container">
+									<h3>Contact Us</h3>
+									<!-- <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p> -->
+									
+									<!-- <form method="post" action="mailto:dagecc.icpr24@gmail.com">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="Send Message" /></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form> -->
+
+									<p>Send us an email to: <b>dagecc.icpr24 [at] gmail.com</b> </p>
+
+								</div>
+							</section>
+
+							<!-- Ack -->
+							<section id="Ack">
+								<div class="container">
+									<h3>Acknowledgments</h3>
+									<p>A special thank to <b><a href="https://www.safran-group.com/">SAFRAN</a></b>, especially <b>Basile MUSQUER</b> (SAFRAN Aircrat Engines) and <b>Thierry ARSAUT</b> (SAFRAN Helicopter Engines) for
+										participating in the acquisition of the images, the creation of the dataset and for allowing us to publish the data.
+									</p>
+									<section>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/LOGO_SAFRAN_rvb.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/logo-upsaclay.svg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/logo_unicaen.png" alt="" /></span></div>												
+											</div>
+										</div>
+									</section>
+
+
+								</div>
+							</section>
+
+
+						<!-- Five -->
+						<!--
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="col-6 col-12-xsmall">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6 col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Primary</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary large">Large</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button primary disabled">Primary</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+												<div class="col-12">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						-->
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; 2024. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
